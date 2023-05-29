@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="log-in-form.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<body>
+<div>
+<h1 align="center">Login Form</h1>
+</div>
+<div>
+<h3 align="center">Oops, you need to Log In first!</h3>
+</div>
+<form action="/action_page.php" method="post">
+  <div class="imgcontainer">
+    <img src="ehrolwho.jpeg" alt="Avatar" class="avatar">
+  </div>
+  <div class="container">
+    <label for="uname"><b>Account Name / Username</b></label>
+    <input type="text" placeholder="Enter Account Name / Username" name="uname" required>
+     <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+    <button type="submit">Login</button>
+    </div>
+    <div>
+    <label>
+      <input type="checkbox" 
+      checked="checked" name="remember"> Remember me
+    </label>
+   </div>
+   
+   <div class="container" style="background-color:#f1f1f1">
+     <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+</form>
+</body>
+</html>
